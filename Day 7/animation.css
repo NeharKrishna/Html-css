@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(239, 226, 226);
+}
+.navbar{
+    text-align: center;
+    background-color: azure;
+    height: 10vh;
+    padding-top: 2px;
+}
+.firstrow{
+    display: flex;
+    margin-top: 40px;
+    justify-content:space-between ;
+}
+.firstrow > .sec1{
+    border: 10px solid black;
+    padding: 10px 40px 50px 10px;
+    transition: rotate 4s linear 2s;
+    transition: translateX 2s ease 1s;
+}
+.sec1:hover{
+    transform: rotate(15deg);
+    border-radius: 50px;
+}
+.sec1:hover img{
+    transform: translateX(250px);
+    border-radius: 20px;
+}
+.sec1>img{
+    transition: transform 3s ease 0s;
+}
+.sec2{
+    border: 10px solid black;
+    padding: 55px;
+    border-radius: 15px;
+    transition: background-color 2s linear 1s,transform 2s ease 1s;
+}
+.sec2:hover{
+    transform: scale(0.3);
+}
+.secondrow{
+    margin-top: 1%;
+    margin-left: 2px;
+    display: flex;
+    gap: 10px;
+}
+.secondrow>.sec3{
+    border: 2px solid black;
+    padding: 40px 40% 40px 0px;
+    font-weight:bold ;
+    font-size: 30px;
+    transition:transform 2s ease 1s,border-radius 1s ease-in-out 1s ;
+    padding-left: 10px;
+}
+.secondrow>.sec3:hover{
+    transform: skew(20deg,4deg);
+    border-radius: 25px;
+}
+.secondrow>.sec4{
+    border: 2px solid black;
+    padding: 40px 30% 40px 0px;
+    font-weight: bold;
+    font-size: 30px;
+    transition:transform 0s ease 0s,color 1s linear 0s,font-size 1s ease-in 1s,border-radius 1s ease-in-out 1s ;
+    padding-left: 10px;
+}
+.secondrow>.sec4:hover{
+    transform:translate(-7px,0px) ;
+    color: rgba(22, 18, 84, 0.753);
+    font-size: 16px;
+    border-radius: 25px;
+}

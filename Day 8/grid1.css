@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    background-color: rgb(3, 46, 32);
+    margin: 0px 20px 50px 20px;
+    color: white;
+}
+.divn{
+    background-color: rgb(6, 62, 12);
+    margin: 5px;
+    display: grid;
+    grid-template-columns:10vw 20vw  20vw auto ;
+    grid-template-rows: 30px 30px 30px;
+    gap: 8px;
+    height: 20vh;
+}
+.divn>.div{
+    background-color: rgb(74, 17, 17);
+    border: 2px solid black;
+}
+.div1{
+    grid-row-start:1;
+    grid-row-end: 3;
+    color: white;
+}
+
+.div5{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    color: white;
+}
+.div6{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    color: white;
+
+}
+.div7{
+    grid-column-start: 2;
+    grid-column-end:5;
+    color: white;
+
+}
+.div9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: white;
+}
+.div2{
+    color: white;
+}
+.div8{
+    color: white;
+}
+.div3{
+    color: white;
+}
+.div4{
+    color: white;
+}
