@@ -22,7 +22,7 @@
     align-items: center;
 }
 .lead>span{
-    color: #d6370b;
+    color: yellow;
     font-weight: bold;
 }
 
@@ -81,6 +81,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .lead>span{
+        color: maroon;
+        font-weight: bold;
     }
 
     .image-content {
@@ -179,7 +183,7 @@
     color: white;
 }
  .card-body>.card-title{
-    color: red;
+    color:yellow;
 }
 .menu-card img {
     transition: transform 0.3s ease-in-out;
@@ -204,7 +208,7 @@
     max-width: 1000px;
 }
 .About{
-    color: #ed280e;
+    color: yellow;
 }
 .text-center{
     font-weight: bold;

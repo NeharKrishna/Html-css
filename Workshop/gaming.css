@@ -35,11 +35,6 @@
     background-color: rgb(217, 217, 233);
     border-radius: 10px; 
 }
-.right>#one{
-    background-color: rgb(217, 217, 233);
-    border-radius: 10px;
-    padding: 5px 15px;
-}
 .right>button{
     background-color: rgb(190, 52, 6);
     color:white;
